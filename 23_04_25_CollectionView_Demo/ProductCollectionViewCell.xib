@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23727" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23721"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ProductCollectionViewCell" id="gTV-IL-0wX" customClass="ProductCollectionViewCell" customModule="_3_04_25_CollectionView_Demo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="145" height="142"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="145" height="142"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test_image_2" translatesAutoresizingMaskIntoConstraints="NO" id="x71-ic-PWM">
+                        <rect key="frame" x="10" y="10" width="125" height="122"/>
+                    </imageView>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="x71-ic-PWM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="KN1-Gq-qcW"/>
+                <constraint firstItem="x71-ic-PWM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="P16-EO-RYS"/>
+                <constraint firstAttribute="bottom" secondItem="x71-ic-PWM" secondAttribute="bottom" constant="10" id="Upc-cB-dww"/>
+                <constraint firstAttribute="trailing" secondItem="x71-ic-PWM" secondAttribute="trailing" constant="10" id="paZ-rF-gZH"/>
+            </constraints>
+            <size key="customSize" width="145" height="142"/>
+            <connections>
+                <outlet property="productTestImageView" destination="x71-ic-PWM" id="2O2-NK-SfT"/>
+            </connections>
+            <point key="canvasLocation" x="-1457.2519083969464" y="12.67605633802817"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="test_image_2" width="100" height="100"/>
+    </resources>
+</document>
