@@ -32,7 +32,7 @@
             <connections>
                 <outlet property="productTestImageView" destination="x71-ic-PWM" id="2O2-NK-SfT"/>
             </connections>
-            <point key="canvasLocation" x="-1457.2519083969464" y="12.67605633802817"/>
+            <point key="canvasLocation" x="-2422" y="-21"/>
         </collectionViewCell>
     </objects>
     <resources>
